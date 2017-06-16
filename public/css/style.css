@@ -1,0 +1,33 @@
+header h1 {
+	font-family: 'Kurale', serif;
+	font-size: 5.5em;
+	color: black;
+	text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+	width: 100%;
+}
+
+header {
+	width: 100%;
+	height: 92px;
+	background-size: contain;
+	background-image: url("/imgs/Flag_of_the_Netherlands.svg.png");
+}
+
+#trans-input {
+	border: solid 2px black;
+	margin: 15px;
+	background-color: white;
+	box-shadow: none;
+	padding-left: 10px;
+	border-radius: 5px;
+	width: 100%;
+	transition: none;
+}
+
+.nav-wrapper {
+	background-color: #e84c3d;
+}
+
+#face-icon {
+	font-size: 45px;
+}
