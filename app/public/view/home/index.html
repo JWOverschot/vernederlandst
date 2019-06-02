@@ -4,24 +4,26 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Vernederlandst</title>
-	<link rel="stylesheet" href="/css/materialize.min.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 	<link rel="stylesheet" href="/css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Kurale" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-		
-	</style>
 </head>
 <body>
 	<header>
 		<h1 class="center-align">Vernederlandst</h1>
 	</header>
 	<div class="container">
-		<form action="/quotes" method="POST">
+		<form action="/" method="POST">
 		<input id="trans-input" type="text" placeholder="Vernederlands" name="name">
 		<button type="submit">Submit</button>
 		</form>
+		<div id="result">
+		</div>
 	</div>
 
 	<nav>
@@ -41,5 +43,6 @@
 	<div class="container">
 		<h4 class="center-align">Geen berichten...</h4>
 	</div>
+	<script lang="text/javascript" src="../../js/script.js"></script>
 </body>
 </html>
