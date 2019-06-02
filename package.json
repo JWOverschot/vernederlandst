@@ -4,11 +4,16 @@
   "description": "A site that literally translates from a language to dutch.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jis van Overschot",
   "license": "ISC",
+  "repository": {
+    "url": "https://github.com/JWOverschot/vernederlandst",
+    "type": "git"
+  },
   "dependencies": {
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
